@@ -1,0 +1,20 @@
+# Rust
+**/target/
+Cargo.lock
+**/*.rs.bk
+
+# Generated Files
+Cargo.toml.orig
+Cargo.lock.orig
+
+# Caches
+*.rs.bk
+*.rlib
+*.rmeta
+
+# Rust Language Server
+.rustdeps
+.rustdoc/
+.rustfix.toml
+.rustfmt.toml
+.rustsym
